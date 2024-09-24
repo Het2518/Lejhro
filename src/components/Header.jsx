@@ -27,11 +27,7 @@ const Header = ({ toggleMenu }) => {
                 <div className="w-full flex justify-between items-center py-4 px-6">
                     <div className="flex items-center">
                         <a href="https://www.lejhro.com/" aria-label="HomePage">
-                            <img
-                                src={isScrolled ? LOGO_BLUE : LOGO_WHITE}
-                                alt={isScrolled ? "Lejhro Blue Logo" : "Lejhro White Logo"}
-                                className="h-4 md:h-[30px]"
-                            />
+                            <img src={isScrolled ? LOGO_BLUE : LOGO_WHITE} alt={isScrolled ? "Lejhro Blue Logo" : "Lejhro White Logo"} className="h-4 md:h-[30px] sm:h-3" />
                         </a>
                     </div>
                     {!isScrolled && (
