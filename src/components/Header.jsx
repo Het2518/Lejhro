@@ -30,7 +30,7 @@ const Header = ({ toggleMenu }) => {
                             <img
                                 src={isScrolled ? LOGO_BLUE : LOGO_WHITE}
                                 alt={isScrolled ? "Lejhro Blue Logo" : "Lejhro White Logo"}
-                                className="h-8 md:h-[30px]"
+                                className="h-5 md:h-[30px]"
                             />
                         </a>
                     </div>
@@ -51,9 +51,9 @@ const Header = ({ toggleMenu }) => {
                     )}
                     <div className="flex items-center space-x-4">
                         {isScrolled && (
-                            <a href="https://www.lejhro.com/contact-us" className="text-[#2c7fbf] font-semibold hidden md:flex items-center text-sm">
+                            <a href="https://www.lejhro.com/contact-us" className="text-[#2c7fbf] font-semibold hidden md:flex items-center text-lg">
                                 Let's Talk
-                                <ArrowRight className="ml-1" size={16} />
+                                <ArrowRight className="ml-1 mt-1" size={16} />
                             </a>
                         )}
                         <button
