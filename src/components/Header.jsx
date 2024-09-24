@@ -30,7 +30,7 @@ const Header = ({ toggleMenu }) => {
                             <img
                                 src={isScrolled ? LOGO_BLUE : LOGO_WHITE}
                                 alt={isScrolled ? "Lejhro Blue Logo" : "Lejhro White Logo"}
-                                className="h-5 md:h-[30px]"
+                                className="h-4 md:h-[30px]"
                             />
                         </a>
                     </div>
